@@ -1,0 +1,77 @@
+/* Reset padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Seção de projetos */
+.projetos {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.projetos h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Cartões de projetos */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  color: #3498db;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #3498db;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.card a:hover {
+  background-color: #2980b9;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #888;
+}
